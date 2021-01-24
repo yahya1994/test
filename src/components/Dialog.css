@@ -1,0 +1,41 @@
+.Dialog {
+       background-color: lightblue;
+    position: absolute;
+    cursor: move;
+    border-radius:150px ;
+    width:100px;
+    height:100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.DialogTitle {
+    font-weight:   normal;
+    padding-top: 4px;
+}
+
+#divLeft {
+    height:100%;
+    float: left;
+    padding:15px;
+    background-color:#da2442;
+  
+  }
+  
+  #divRight {
+    display:  flex;width: 90vh;
+    
+
+  }
+  
+  #div1, #div2 {
+    float:left; width:100px; height:35px; margin:10px;padding:10px;border:1px solid #bebdbd;
+  }
+  
+  #divRight1, #divRight2, #divRight3, #divRight4 , #divRight5, #divRight6, #divRight7, #divRight8, #divRight9 {
+    height:11vh;
+    width: 15vh;
+    border: 1px solid #000;border-color: rgb(239, 241, 241);
+  }
